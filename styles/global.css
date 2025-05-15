@@ -1,0 +1,183 @@
+/* remove default browser spacing*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'JetBrains Mono', monospace;
+}
+body {
+  background-color: black;
+}
+
+/*title text style*/
+/* the font-family 'JetBrains Mono', has been linked
+   * and is available for your use
+   * */
+
+.main-container {
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  width: 60%;
+  height: 9rem;
+  padding-left: 2rem;
+  margin-right: 6rem;
+  margin-top: 2rem;
+}
+
+.profile-details p {
+  color: black;
+}
+
+.inner-container-spacing {
+  margin-top: 13px;
+}
+
+.summary-box {
+  text-align: center;
+}
+
+.summary-box p,
+h2 {
+  color: white;
+  line-height: 2rem;
+}
+
+.education {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.education h1,
+p {
+  color: white;
+  padding-left: 0;
+}
+
+.experience {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.experience h1,
+p {
+  color: white;
+  padding-left: 0;
+  padding-top: 0.2rem;
+}
+.twin {
+  display: flex;
+  /* gap: 7rem; */
+  justify-content: space-between;
+}
+
+.hobbies {
+  /* flex-grow: 1; */
+  width: 40%;
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.hobbies h1,
+p {
+  color: white;
+  padding-left: 0;
+  padding-top: 0.2rem;
+}
+
+.skills {
+  /* flex-grow: 1; */
+  width: 40%;
+  padding-top: 1rem;
+  padding-left: 4rem;
+}
+
+.skills h1,
+p {
+  color: white;
+  padding-top: 0.2rem;
+}
+
+h1 {
+  color: white;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+ul {
+  color: white;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+li {
+  padding-bottom: 2px;
+}
+
+.form-container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  margin-left: 18rem;
+  border-width: thick;
+  border-style: dashed;
+  border-radius: 5px;
+  background-color: black;
+  padding: 25px;
+  width: 50%;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type='submit']:hover {
+  background-color: palevioletred;
+}
+
+#formDetails {
+  padding-left: 30rem;
+  padding-top: 10rem;
+}
+
+textarea {
+  width: 25rem;
+  height: 6rem;
+  padding: 12px 20px;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  border: 2px thin #ccc;
+  box-sizing: border-box;
+  font-size: 15px;
+}
