@@ -105,3 +105,9 @@ Pulling updates prevents **errors** and keeps everything **up-to-date**! 🚀
 
 
 🚀 **View the project here**: [https://shytypes.github.io/week-2-portfolio-assesment-naomiconcept/](https://shytypes.github.io/week-2-portfolio-assesment-naomiconcept/)
+
+
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-green?logo=github)](https://naomiconcept.github.io/LittleMissCoder-Portfolio/)
+
+
+🚀 **View the project here**: [https://naomiconcept.github.io/LittleMissCoder-Portfolio/](https://naomiconcept.github.io/LittleMissCoder-Portfolio/)
