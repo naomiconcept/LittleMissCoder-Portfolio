@@ -181,3 +181,82 @@ textarea {
   box-sizing: border-box;
   font-size: 15px;
 }
+
+/* For tablets (widths between 600px and 1024px) */
+@media (max-width: 1024px) {
+  .main-container {
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-details {
+    width: 90%;
+    margin-right: 0;
+  }
+
+  .form-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* For mobile devices (widths below 600px) */
+@media (max-width: 600px) {
+  .main-container {
+    padding: 10px;
+  }
+
+  .header-container {
+    gap: 10px;
+  }
+
+  .profile-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .profile-details {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .twin {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .hobbies,
+  .skills {
+    width: 100%;
+    padding: 0;
+  }
+
+  .form-container {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 15px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
